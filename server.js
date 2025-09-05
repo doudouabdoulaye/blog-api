@@ -7,7 +7,7 @@ app.use(express.json());
 // Synchronisation DB
 sequelize.sync().then(() => console.log("Base synchronisée !"));
 
-// ====================== ROUTES ======================
+//  s====================== ROUTES ======================
 
 //  Utilisateurs
 app.post("/users", async (req, res) => {
